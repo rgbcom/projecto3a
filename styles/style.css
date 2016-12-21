@@ -1,0 +1,107 @@
+body {
+	background: white;
+	font-size: 20px;
+}
+.parrafo {
+	color: black;
+	line-height:2;
+	letter-spacing: 1px;
+}
+.color-rosa {
+	color:pink;
+}
+.titulo {
+	font-size: 80px;
+	font-style: italic;
+	
+	color: blue;
+	text-decoration: underline;
+	text-transform: uppercase;
+	font-family: 'Molle', cursive; 
+	/* poner todo en mayuscula y subrayado */
+}
+/* especificidad */
+article h3.titulo{
+	color: green;
+}
+ h3 , p {
+ 	font-family: Roboto, sans-serif;
+ }
+ .cuadrado {
+ 	height: 200px;
+ 	width: 200px;
+ 	background: blue;
+ 	border-top: 4px solid red;
+ 	border-left: 10px dotted yellow;
+ 	border-bottom: 3px double pink;
+ 	border-right: 4px dashed orange;
+ }
+ .boton {
+ 	background: red;
+ 	color: white;
+ 	text-decoration: none;
+ 	font-size: 50px;
+
+}
+
+ .boton:hover {
+ 	background: blue;
+ 	color: yellow;
+ }
+ .elementos li {
+ 	color:red;
+ }
+.elementos li: first child {
+	color: blue;
+}
+.elementos li: last child {
+	color: green;
+}
+.elementos li: nth-child (2){
+	color: pink;
+}
+.elementos li: nth-child (odd){
+	background: gray;
+}
+.circulo {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	box-shadow: 10px 10px 5px rgba(0,0,0,0.5);
+	border: dashed yellow;
+}
+.circulo1 {
+	background: red;
+}
+.circulo2 {
+	background: blue;
+}
+.circulo3 {
+	background: green;
+}
+
+
+.icono {
+	font-size: 200px;
+	color: blue;
+}
+.facebook {
+	font-size: 100px;
+	color: blue;
+
+}
+.linkedin {
+	font-size: 100px;
+	color: red;
+}
+.twitter {
+	font-size: 100px;
+	color: green;
+}
+.instagram {
+	font-size: 100px;
+	color: grey;
+}
+ul {
+	list-style: none;
+}
